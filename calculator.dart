@@ -18,7 +18,8 @@ void main() {
 
   String choice =
       stdin.readLineSync()!; //reads input from user's operator selection
-  doubleresult; //this declares a variable to store the result from the operation
+  double
+      result; //this declares a variable to store the result from the operation
 
   switch (choice) {
     case '+':
