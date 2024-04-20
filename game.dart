@@ -5,8 +5,8 @@ import 'dart:io';
 //gameboard-variable.....3
 //displayboard(function).....4
 //play(function).......5
-//checkwinner(function)
-//displaywinner(function)
+//checkwinner(function).....6
+//displaywinner(function).....7
 void main() {
   print('WELLCOME TO TIC TAC TOE GAME:'); //this displays a wellcoming message
   String player = "X";
@@ -20,7 +20,7 @@ void main() {
     ["", "", ""]
   ];
 
-  //display function for the UI
+  //display function for the User Interface(UI)
   displaydashboard(gamedashboard);
 
   //Play function to switch and enter input
